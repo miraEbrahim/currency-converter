@@ -1,0 +1,4 @@
+async function syntax
+const asyncFunction = async () => {
+  //code
+}

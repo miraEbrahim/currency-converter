@@ -1,0 +1,27 @@
+{
+  "name": "currency-converter-async",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/miraEbrahim/currency-converter.git"
+  },
+  "keywords": [
+    "javascript",
+    "async",
+    "function"
+  ],
+  "author": "Maryam Ebrahim <mxebrahim@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/miraEbrahim/currency-converter/issues"
+  },
+  "homepage": "https://github.com/miraEbrahim/currency-converter#readme",
+  "dependencies": {
+    "axios": "^0.19.0"
+  }
+}
