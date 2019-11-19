@@ -1,4 +1,45 @@
-async function syntax
+async function syntax:
+======================
 const asyncFunction = async () => {
   //code
 }
+
+Currency Converter
+==================
+
+Overview
+--------
+- The Application will take in : 
+  > Currency Code to Convert From 
+  > Currency Code to Convert To
+  > The Amount of money
+- The Application will output:
+  > The correct Exchange rate based on the data from the APIs
+- The Application will receive data from two asynchronous sources:
+  > Currency Layer -- https://currencylayer.com
+  > Rest Countries -- http://restcountries.eu 
+- Application Dependencies
+  > Axios: Promise based HTTP client for the browser and node.js  
+
+Functions Used
+--------------
+- Fetch Currency Data
+- Fetch Countries Data
+- Gather Currency & Countries Informations into one single place and output it to the user interface
+
+
+File Structure
+--------------
+
+Browser Supports
+----------------
+  > Axios
+        Chrome	    Firefox	    Safari      Opera	     Edge	     IE
+        *******     *******     *******     *******    *******   *******
+        Latest ✔	  Latest ✔	  Latest ✔	  Latest ✔	 Latest ✔	 11 ✔
+
+
+
+
+  
+
